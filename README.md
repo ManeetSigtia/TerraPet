@@ -1,12 +1,21 @@
 # TerraPet
 Terra-Pet is a fitness app that uses the Terra API to collect health-related data from users and help them stay committed to their fitness goals. The app rewards users for achieving their weekly goals by growing a virtual pet, which improves as the user becomes healthier and more active.
 
+## Running On Your Machine
+```
+git clone https://github.com/ManeetSigtia/TerraPet.git
+cd TerraPet
+cd react-files
+npm start
+```
+
 ## Table of Contents
 * [Project Details](#project-details)
   * [Team Name](#team-name)
   * [Challenge](#challenge)
   * [Members Names](#members-names)
   * [Mentor Name](#mentor-name)
+  * [Technologies Used](#technologies-used)
 * [Project Description](#project-description)
   * [The Problem](#the-problem)
   * [The Solution](#the-solution)
@@ -14,11 +23,10 @@ Terra-Pet is a fitness app that uses the Terra API to collect health-related dat
   * [Market Potential](#market-potential)
 * [Features and Extensibilty](#features-and-extensibility)
 
-
 ## Project Details
 ### Team Name
 TerraPet
-calories_burnt
+
 ### Challenge
 Terra API
 
@@ -30,6 +38,12 @@ Neel Nair - K22028768
 
 ### Mentor Name
 Eduard Ragea - K20067643
+
+### Technologies Used
+* Terra API
+* React.js
+* Python
+* CSS3
   
 ## Project Description
 ### The Problem
