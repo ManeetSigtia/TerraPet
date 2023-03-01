@@ -27,7 +27,6 @@ Terra API
 Hari Rathod - K22002783  
 Harshraj Patel - K22018200  
 Maneet Sigtia - K22006576  
-Mohammed Gulzar - K22042905  
 Neel Nair - K22028768  
 
 ### Mentor Name
