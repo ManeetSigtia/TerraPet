@@ -12,8 +12,7 @@ Terra-Pet is a fitness app that uses the Terra API to collect health-related dat
   * [The Solution](#the-solution)
   * [Benefits](#benefits)
   * [Market Potential](#market-potential)
-* [Presentation Link](#presentation-link)
-* [Features and Extensions](#features-and-extensions)
+* [Features and Extensibilty](#features-and-extensibility)
 
 
 ## Project Details
@@ -48,9 +47,9 @@ Terra – Pet encourages physical activity and healthy habits by making fitness 
 - Appeals to a wide audience, including both children and adults.
 - Can be monetized through in-app purchases and sponsorships.
 
-### Features and Extensions
-- Currency is going to be called PetCoins. equation to calculate PetCoins: (0.2 x activity seconds + 0.7 x steps walked + 0.1 x calories burnt)/100
-- When an purchase a new egg is purchased, it takes time to hatch it and create the pet. The user should be able to either use steps to speed up the process, or actual money to hatch the egg instantly.
+### Features and Extensibility
+- Currency is going to be called PetCoins. equation to calculate PetCoins: (0.25 x activity seconds + 0.75 x steps walked)/100
+- When a new egg is purchased, it takes time to hatch it and create the pet. The user should be able to either use steps to speed up the process, or actual money to hatch the egg instantly.
 - As of now, only the steps walked contribute to calculating PetCoins. In the future, we envision this app to be able to use data from other activities such as swimming and cycling for example.
 - Fitness streak that record the consecutive days a user has met their goal. 
 - Target steps entered by the user.
