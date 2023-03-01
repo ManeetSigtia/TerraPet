@@ -14,6 +14,13 @@ Terra-Pet is a fitness app that uses the Terra API to collect health-related dat
   * [Market Potential](#market-potential)
 * [Features and Extensibilty](#features-and-extensibility)
 
+## Running On Your Machine
+```
+git clone https://github.com/ManeetSigtia/TerraPet.git
+cd TerraPet
+cd react-files
+npm start
+```
 
 ## Project Details
 ### Team Name
