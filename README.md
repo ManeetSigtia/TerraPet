@@ -15,6 +15,7 @@ npm start
   * [Challenge](#challenge)
   * [Members Names](#members-names)
   * [Mentor Name](#mentor-name)
+  * [Technologies Used](#technologies-used)
 * [Project Description](#project-description)
   * [The Problem](#the-problem)
   * [The Solution](#the-solution)
@@ -25,7 +26,7 @@ npm start
 ## Project Details
 ### Team Name
 TerraPet
-calories_burnt
+
 ### Challenge
 Terra API
 
@@ -37,6 +38,12 @@ Neel Nair - K22028768
 
 ### Mentor Name
 Eduard Ragea - K20067643
+
+### Technologies Used
+* Terra API
+* React.js
+* Python
+* CSS3
   
 ## Project Description
 ### The Problem
