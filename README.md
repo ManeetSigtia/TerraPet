@@ -14,8 +14,10 @@ npm start
   * [Team Name](#team-name)
   * [Challenge](#challenge)
   * [Members Names](#members-names)
-  * [Mentor Name](#mentor-name)
   * [Technologies Used](#technologies-used)
+  * [How the Project was Implemented](#how-the-project-was-implemented)
+  * [Mentor Name](#mentor-name)
+  
 * [Project Description](#project-description)
   * [The Problem](#the-problem)
   * [The Solution](#the-solution)
@@ -25,25 +27,31 @@ npm start
 
 ## Project Details
 ### Team Name
-TerraPet
+* TerraPet
 
 ### Challenge
-Terra API
+* Build a project that uses the Terra API
 
 ### Members Names
 Hari Rathod - K22002783  
 Harshraj Patel - K22018200  
 Maneet Sigtia - K22006576  
-Neel Nair - K22028768  
-
-### Mentor Name
-Eduard Ragea - K20067643
+Neel Nair - K22028768
 
 ### Technologies Used
 * Terra API
 * React.js
 * Python
 * CSS3
+
+### How the Project was Implemented
+* The getData.py file retrieves the data from the user's account, using the Terra API. 
+* This python script then extracts the steps_walked and activity_seconds fields from the JSON response, and creates a JSON file.
+* The App.js module parses the JSON file returned by getData.py and the Terra API, and displays the data on the web page, when the user presses 'Load data from 'Fitness Device'.
+* The user can also manually enter data. As the number of steps reaches 10000, 20000, 30000, and 40000, the virtual pet grows larger.
+
+### Mentor Name
+Eduard Ragea - K20067643
   
 ## Project Description
 ### The Problem
