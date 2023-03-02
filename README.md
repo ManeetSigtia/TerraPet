@@ -5,6 +5,7 @@ Terra-Pet is a fitness web app that uses the Terra API to collect health-related
 ```
 git clone https://github.com/ManeetSigtia/TerraPet.git
 cd TerraPet
+npm install
 npm start
 ```
 
