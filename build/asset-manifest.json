@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.447fad8a.css",
-    "main.js": "/static/js/main.d6dd4877.js",
-    "static/media/1_img5.png": "/static/media/1_img5.b4074cfd8e56031cd8b4.png",
-    "static/media/1_img4.png": "/static/media/1_img4.2a144a649bd64ef956a5.png",
-    "static/media/1_img3.png": "/static/media/1_img3.9e548663a1e6d765ca55.png",
-    "static/media/1_img2.png": "/static/media/1_img2.4c98269386a2504245e4.png",
-    "static/media/imageOne.jpg": "/static/media/imageOne.6df0402d7d38379c199d.jpg",
-    "index.html": "/index.html",
-    "main.447fad8a.css.map": "/static/css/main.447fad8a.css.map",
-    "main.d6dd4877.js.map": "/static/js/main.d6dd4877.js.map"
+    "main.css": "/TerraPet/static/css/main.447fad8a.css",
+    "main.js": "/TerraPet/static/js/main.a33e1704.js",
+    "static/media/1_img5.png": "/TerraPet/static/media/1_img5.b4074cfd8e56031cd8b4.png",
+    "static/media/1_img4.png": "/TerraPet/static/media/1_img4.2a144a649bd64ef956a5.png",
+    "static/media/1_img3.png": "/TerraPet/static/media/1_img3.9e548663a1e6d765ca55.png",
+    "static/media/1_img2.png": "/TerraPet/static/media/1_img2.4c98269386a2504245e4.png",
+    "static/media/imageOne.jpg": "/TerraPet/static/media/imageOne.6df0402d7d38379c199d.jpg",
+    "index.html": "/TerraPet/index.html",
+    "main.447fad8a.css.map": "/TerraPet/static/css/main.447fad8a.css.map",
+    "main.a33e1704.js.map": "/TerraPet/static/js/main.a33e1704.js.map"
   },
   "entrypoints": [
     "static/css/main.447fad8a.css",
-    "static/js/main.d6dd4877.js"
+    "static/js/main.a33e1704.js"
   ]
 }
