@@ -1,5 +1,5 @@
 # TerraPet
-Terra-Pet is a fitness app that uses the Terra API to collect health-related data from users and help them stay committed to their fitness goals. The app rewards users for achieving their weekly goals by growing a virtual pet, which improves as the user becomes healthier and more active.
+Terra-Pet is a fitness web app that uses the Terra API to collect health-related data from users and help them stay committed to their fitness goals. The app rewards users for achieving their weekly goals by growing a virtual pet, which improves as the user becomes healthier and more active.
 
 ## Running On Your Machine
 ```
@@ -14,8 +14,10 @@ npm start
   * [Team Name](#team-name)
   * [Challenge](#challenge)
   * [Members Names](#members-names)
-  * [Mentor Name](#mentor-name)
   * [Technologies Used](#technologies-used)
+  * [How the Project was Implemented](#how-the-project-was-implemented)
+  * [Mentor Name](#mentor-name)
+  
 * [Project Description](#project-description)
   * [The Problem](#the-problem)
   * [The Solution](#the-solution)
@@ -25,25 +27,33 @@ npm start
 
 ## Project Details
 ### Team Name
-TerraPet
+* TerraPet
 
 ### Challenge
-Terra API
+* Build a project that uses the Terra API
 
 ### Members Names
 Hari Rathod - K22002783  
 Harshraj Patel - K22018200  
 Maneet Sigtia - K22006576  
-Neel Nair - K22028768  
-
-### Mentor Name
-Eduard Ragea - K20067643
+Neel Nair - K22028768
 
 ### Technologies Used
 * Terra API
 * React.js
 * Python
 * CSS3
+
+### How the Project was Implemented
+##### The project is a web application, built using React.js
+* The getData.py file retrieves the data from the user's account, using the Terra API. 
+* This python script then extracts the steps_walked and activity_seconds fields from the JSON generated, and creates a JSON file (data.json). 
+* The App.js script parses the data.json file, and displays the data on the web page, when the user presses _'Load data from 'Fitness Device'.'_
+* The user can also manually enter data. This data is stored in App.js using 'state'. The data is displayed as a list, and the user can remove data if they mistype, for example.
+* Once the number of steps reaches 10000, 20000, etc., the App.js script updates the size of the pet.
+
+### Mentor Name
+Eduard Ragea - K20067643
   
 ## Project Description
 ### The Problem
