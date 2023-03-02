@@ -46,9 +46,10 @@ Neel Nair - K22028768
 
 ### How the Project was Implemented
 * The getData.py file retrieves the data from the user's account, using the Terra API. 
-* This python script then extracts the steps_walked and activity_seconds fields from the JSON response, and creates a JSON file.
-* The App.js module parses the JSON file returned by getData.py and the Terra API, and displays the data on the web page, when the user presses 'Load data from 'Fitness Device'.
-* The user can also manually enter data. As the number of steps reaches 10000, 20000, 30000, and 40000, the virtual pet grows larger.
+* This python script then extracts the steps_walked and activity_seconds fields from the JSON generated, and creates a JSON file (data.json).
+* The App.js module parses the data.json file returned by getData.py and the Terra API, and displays the data on the web page, when the user presses 'Load data from 'Fitness Device'.'
+* The user can also manually enter data. This data is stored in the App.js using 'state'. The data is displayed as a list, and the user can remove data if they mistype, for example.
+* Once the number of steps reaches 10000, 20000, etc., the App.js script updates the size of the pet.
 
 ### Mentor Name
 Eduard Ragea - K20067643
